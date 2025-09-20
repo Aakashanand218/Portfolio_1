@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments - Aakash Anand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="main.html" class="logo">Aakash</a>
+            <ul class="nav-links">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <audio id="clickSound" src="preview.mp3" preload="auto"></audio>
+            <audio id="bgMusic" src="BG music.mp3" preload="auto" loop></audio>
+            <div class="nav-toggle">
+                <span>⚡</span>
+                <span class="sound-status">Sound On</span> <!-- optional -->
+                <span class="time" id="time"></span>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+      <section class="hero">
+        <div class="hero-content">
+            <h1 class="main-title">Experiments</h1>
+            <p class="description">A playground for animations, code experiments, creative UI elements, and interactive prototypes.</p>
+            <!-- Example experiment cards -->
+            <div class="work-grid">
+                <div class="work-card">
+                    <h3>Particle Effect Demo</h3>
+                    <p>Custom JavaScript for animated backgrounds.</p>
+                </div>
+                <div class="work-card">
+                    <h3>Cursor Trail UI</h3>
+                    <p>Dynamic cursor trail and mouse interactions.</p>
+                </div>
+                <!-- Add more experiments as needed -->
+            </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Aakash Anand</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="main.html" class="logo">Aakash</a>
+            <ul class="nav-links">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="experiments.html">Experiments</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <audio id="clickSound" src="preview.mp3" preload="auto"></audio>
+            <audio id="bgMusic" src="BG music.mp3" preload="auto" loop></audio>
+            <div class="nav-toggle">
+                <span>⚡</span>
+                <span class="sound-status">Sound On</span> <!-- optional -->
+                <span class="time" id="time"></span>
+            </div>
+        </div>
+    </nav>
+   <div class="contact-card">
+    <h1>Contact</h1>
+    <p>Want to collaborate? Reach out below.</p>
+    <form class="contact-form" action="mailto:youremail@example.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Type your message here..." required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
